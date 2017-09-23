@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library SYSTEM "Library.dtd">
+
+<Library>
+	<Book BookId = "01">
+		<Title>Novel</Title>
+		<Name>A Song of Ice and Fire</Name>
+		<Author>George Raymond Richard Martin</Author>
+                <Price>$100</Price>
+		<Publisher>HarperCollins</Publisher>
+		<Cost>$50</Cost>	
+	</Book>
+	<Member>
+		<Name>
+			<FirstName>Alice</FirstName>
+			<MiddleName>Jo</MiddleName>
+			<LastName>Blu</LastName>
+		</Name>
+		<Address>
+			<HouseNumber>079</HouseNumber>
+			<Street>Pace Whilte</Street>
+			<City>New York</City>
+		</Address>
+	</Member>
+</Library>
+

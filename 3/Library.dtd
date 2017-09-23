@@ -1,0 +1,23 @@
+<!DOCTYPE Library [
+
+<!ELEMENT Library (Book,Member)>
+<!ELEMENT Book (Title,Name,Author,Price,Publisher,Cost)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Cost (#PCDATA)>
+<!ELEMENT Member (Name,Address)>
+<!ELEMENT Name (FirstName,MiddleName,LastName)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT MiddleName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT Address (HouseNumber,Street,City)>
+<!ELEMENT HouseNumber (#PCDATA)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+
+<!ATTLIST Book BookId CDATA "00000"> 
+
+]>
